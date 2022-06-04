@@ -1,1 +1,45 @@
+#Autor: Adilson Felipe dos Santos
+#Data de criação: 04/06/2022
+#Data de atualização: 04/06/2022
+#Versão: 0.01
+____________________________________________________________________________
+
+1 # Criar comentario em Python utilizamos esse simbolo (# - Comentários / """ Documentando / ''' Documentando)
+
+
+Exemplos;
+
+# comentário
+print ("Linha 1")  # Outro comentário
+print ("Linha 2") 
+# Uma linha
+# Outra Linha
+print ("Linha 3")
+print ("Linha 4")  # Isso é um comentário
+#  print ("Linha 5")  # Não executara esse comando 
+print ("Linha 6")
+# Final
+
+Outros tipos de Comentários, que seria mesmo para (Documentando)
+
+""" Documentando
+print ("Linha 1")  
+print ("Linha 2")  
+print ("Linha 3")
+"""
+print ("Linha 4")  
+ print ("Linha 5")   
+print ("Linha 6")
+ Final
+
+"""
+Documentando
+"""
+
+ou
+
+'''
+Documentando
+'''
+
 
