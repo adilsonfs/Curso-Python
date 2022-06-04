@@ -2,3 +2,12 @@
 #Data de criação: 04/06/2022
 #Data de atualização: 04/06/2022
 #Versão: 0.01
+______________________________________________________________________
+
+# Strings é um tipo de dado primitivo em python! str - string
+
+# Tudo que estiver dentro de Aspas é chamado de String
+  print("Essa é uma 'string' (str). ")
+  print('Essa é uma "string" (str). ')
+  print("Esse é meu \"texto\" (str). ")
+  print(r'Esse é meu \n (str). ')
