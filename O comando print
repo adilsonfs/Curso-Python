@@ -4,6 +4,33 @@
 #Versão: 0.01
 __________________________________________________________________
 
-# A função print mostra coisa na tela.
+# A função print mostra coisa na tela;
+
+# Argumento
+print(123456)
+123456
+---------------------------------------------------------------------------------------------------  
+# Isso daqui separados por virgula são argumentos que estou passando para a função print 
+print('Adilson', 'Felipe', 'dos', 'Santos')  
+
+Adilson Felipe dos Santos
+---------------------------------------------------------------------------------------------------
+# Função print, usar esse traço como separador de argumentos (sep='-')
+print('Adilson', 'Gustavo', sep='-')  
+
+Adilson-Gustavo
+
+# Funçao end='' no final do print deixa tudo na mesma linha
+print('Adilson', 'Felipe', 'dos', 'Santos', end='')
+print('Adilson', 'Gustavo', sep='-', end='')
+
+Adilson Felipe dos SantosAdilson-Gustavo
+
+# print com letra maiuscula não existe aqui nesse momento se executar dara erro.
+Print ('Executar')
+
+NameError: name 'Print' is not defined
+
+
 
  
