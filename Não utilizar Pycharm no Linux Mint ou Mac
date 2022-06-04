@@ -1,1 +1,39 @@
+#Autor: Adilson Felipe dos Santos
+#Data de criação: 04/06/2022
+#Data de atualização: 04/06/2022
+#Versão: 0.01
+---------------------------------------------------------------- 
 
+1 -Criar Script sem a utilização do Pycharm (Criar tudo pelo Terminal Linux Mint/Mac). 
+2 -Criando por qualquer editor de texto.
+.
+.
+3 # Acessar Terminal
+4 # Desktop
+  cd Área de Trabalho
+  # Acessar a Pasta
+    Área de Trabalho ls
+  # Criar pasta projeto ( Sempre criar um ambiente virtual para esse projeto)
+  mkdir projeto
+  # Acessar a Pasta 
+   /projeto$
+   # Criando o ambiente virtual (Instalar)
+   /projeto$ sudo apt install python3-venv
+   # acessar a pasta projeto novamente (Uma pasta chamada env é criada dentro da pasta projeto.
+   /projeto$ python3 -m venv env
+   # ativar ambiente virtual (env aparecera assim que vc der o enter)
+   /projeto$ source env/bin/activate
+   # Todos os comandos executados a partir de agora serão executados dentro do ambiente virtual
+   # Criando um Script e executar ele no ambiente virtual utilizando um editor de texto qualquer, mais vou utilizar o nano.
+   /nano main.py
+   # criando Script python dentro do nano, da um CTRL + O SAlVAR
+   print('Hello World!')
+   # Executando o Script
+   python main.py
+   Hello World!
+ 
+   
+   
+   
+   
+  
