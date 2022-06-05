@@ -1,0 +1,61 @@
+#Autor: Adilson Felipe dos Santos
+#Data de criação: 05/06/2022
+#Data de atualização: 05/06/2022
+#Versão: 0.01
+______________________________________________________________________________
+
+# Valores Formatados
+
+Exemplos;
+
+nome = 'Luiz Otávio'
+idade = 32  # int
+altura = 1.80  # float
+e_maior = idade > 18  # bool
+peso = 80
+imc = peso / (altura ** 2)
+
+print (nome, 'temp', idade, 'anos de idade e seu imc é', imc)
+print(f' {nome} tem {idade} anos de idade e seu imc é {imc:.2f}')
+
+Run;
+Luiz Otávio temp 32 anos de idade e seu imc é 24.691358024691358
+ Luiz Otávio tem 32 anos de idade e seu imc é 24.69
+
+Process finished with exit code 0
+
+nome = 'Luiz Otávio'
+idade = 32  # int
+altura = 1.80  # float
+e_maior = idade > 18  # bool
+peso = 80
+imc = peso / (altura ** 2)
+
+print (nome, 'temp', idade, 'anos de idade e seu imc é', imc)
+print(f' {nome} tem {idade} anos de idade e seu imc é {imc:.2f}')
+print('{} tem {} anos de idade e seu imc é {:.2f}'.format(nome, idade, imc))
+
+Run;
+Luiz Otávio temp 32 anos de idade e seu imc é 24.691358024691358
+ Luiz Otávio tem 32 anos de idade e seu imc é 24.69
+Luiz Otávio tem 32 anos de idade e seu imc é 24.69
+
+Process finished with exit code 0
+
+nome = 'Luiz Otávio'
+idade = 32  # int
+altura = 1.80  # float
+e_maior = idade > 18  # bool
+peso = 80
+imc = peso / (altura ** 2)
+
+print (nome, 'temp', idade, 'anos de idade e seu imc é', imc)
+print(f' {nome} tem {idade} anos de idade e seu imc é {imc:.2f}')
+print('{n} tem {i} anos e seu imc é {im}'.format(n=nome, i=idade, im=imc))
+
+Run;
+Luiz Otávio temp 32 anos de idade e seu imc é 24.691358024691358
+ Luiz Otávio tem 32 anos de idade e seu imc é 24.69
+Luiz Otávio tem 32 anos e seu imc é 24.691358024691358
+
+Process finished with exit code 0
