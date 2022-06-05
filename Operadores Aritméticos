@@ -1,0 +1,106 @@
+#Autor: Adilson Felipe dos Santos
+#Data de criação: 05/06/2022
+#Data de atualização: 04/06/2022
+#Versão: 0.01
+______________________________________________________________________________________
+
+
+# +, -, *, /, //, **, %, ()
+
+print('Multiplição * ', 10 * 10)
+print('Adição +',  10 + 10)
+print('Subtração - ', 10 - 5)
+print('Divisão /', 10 / 2)
+
+Run;
+Multiplição *  100
+Adição + 20
+Subtração -  5
+Divisão / 5.0
+
+Process finished with exit code 0
+
+# Se eu * por inteiro eu tenho uma repetição.
+print('Multiplição * ', 10 * 'Luiz')
+
+Run;
+Multiplição *  LuizLuizLuizLuizLuizLuizLuizLuizLuizLuiz
+
+Process finished with exit code 0
+
+# Exemplo;
+
+print('Luiz' + ' ' + 'Otávio')
+
+Run;
+Luiz Otávio
+
+Process finished with exit code 0
+
+
+print('Luiz' + ' ' + 'Otávio e ele tem ' + '32' + ' anos')
+
+Run;
+Luiz Otávio e ele tem 32 anos
+
+Process finished with exit code 0
+
+print('Luiz' + ' ' + 'Otávio e ele tem ' + str(32) + ' anos')
+
+Run;
+Luiz Otávio e ele tem 32 anos
+
+Process finished with exit code 0
+
+
+# Ponto Flutuante com divisão inteira
+
+print(10.5 // 3)
+
+# Divisão inteira
+
+print(10 // 3)
+
+Run;
+3
+
+Process finished with exit code 0
+
+# Retornar potenciação
+
+print(2 ** 10)
+
+Run;
+1024
+
+Process finished with exit code 0
+
+# Porcentagem te retorna o modulo o resto da divisão
+
+print(10 % 3)
+
+Run;
+1
+
+Process finished with exit code 0
+
+# Parenteses ()
+
+# São utilizados para alterar a procendencia dos operadores
+
+print(5+2*10)
+
+Run;
+25
+
+Process finished with exit code 0
+
+print(5+2*10)
+print((5+2)*10)
+
+Run;
+25
+70
+
+Process finished with exit code 0
+
