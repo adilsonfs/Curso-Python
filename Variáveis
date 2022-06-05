@@ -1,0 +1,53 @@
+#Autor: Adilson Felipe dos Santos
+#Data de criação: 05/06/2022
+#Data de atualização: 05/06/2022
+#Versão: 0.01
+_________________________________________________________________
+
+# Variavel é um nome que se da para algo salvo na memoria do computador 
+
+
+# = Operador de atribuição
+
+nome = 'Luiz'
+print(nome)
+
+nome = 'Luiz'
+print(nome, type(nome))
+
+Run;
+Luiz <class 'str'>
+
+Process finished with exit code 0
+
+Exemplos;
+
+nome = 'Luiz Otávio'
+idade = 32  # int
+altura = 1.80  # float
+e_maior = idade > 18  # bool
+data_1 = True  # bool
+data_atual = 2019
+
+print (idade * altura)
+
+Run;
+57.6
+
+Process finished with exit code 0
+
+
+Exercício; Descobrir o IMC do Luiz
+
+nome = 'Luiz Otávio'
+idade = 32  # int
+altura = 1.80  # float
+e_maior = idade > 18  # bool
+peso = 80
+imc = peso / (altura ** 2)
+print (nome, 'temp', idade, 'anos de idade e seu imc é', imc)
+
+Run;
+Luiz Otávio temp 32 anos de idade e seu imc é 24.691358024691358
+
+Process finished with exit code 0
