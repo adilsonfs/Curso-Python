@@ -16,7 +16,8 @@ e_maior = idade > 18
 imc = peso / (altura ** 2)
 
 print(nome, 'tem', idade, "anos de idade e seu imc é", imc)
-print(f'{nome} tem {idade} anos de idade e seu imc é,{imc}')
+print(f'{nome} tem {idade} anos de idade e seu imc é,{imc:.2f}')
+print('{} tem {} anos de idade e seu imc é {:.2f}'.format(nome, idade, imc) )
 ---------------------------------------------------------------------------------
 
 nome = 'Ivone Santana'
@@ -27,7 +28,7 @@ e_maior = idade > 18
 imc = peso / altura ** 2
 
 print( nome, 'tem', idade, 'anos de idade e seu imc é', imc)
-print(f'{nome} tem {idade} anos de idade e seu imc é,{imc}')
+print(f'{nome} tem {idade} anos de idade e seu imc é,{imc:.2f}')
 ---------------------------------------------------------------------------------
 nome = 'Gustavo Santos'
 idade = 12
@@ -37,7 +38,18 @@ e_maior = idade > 18
 imc = peso / altura ** 2
 
 print(nome, 'tem', idade, 'anos de idade e seu imc é', imc)
-print(f'{nome} tem {idade} anos de idade e seu imc é,{imc}')
+print(f'{nome} tem {idade} anos de idade e seu imc é,{imc:.2f}')
 ---------------------------------------------------------------------------------
 
 Run;
+
+/home/adilson/projetos/pythonProject/cursopython/venv/bin/python /home/adilson/projetos/pythonProject/cursopython/aula7/aula7.py
+Adilson Felipe tem 41 anos de idade e seu imc é 34.71783865673526
+Adilson Felipe tem 41 anos de idade e seu imc é 34.72
+Adilson Felipe tem 41 anos de idade e seu imc é 34.72
+Ivone Santana tem 46 anos de idade e seu imc é 34.013605442176875
+Ivone Santana tem 46 anos de idade e seu imc é 34.01
+Gustavo Santos tem 12 anos de idade e seu imc é 21.719250114311837
+Gustavo Santos tem 12 anos de idade e seu imc é 21.72
+
+Process finished with exit code 0
